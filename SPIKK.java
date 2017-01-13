@@ -1,3 +1,9 @@
+public void start(Stage primaryStage) throws Exception {
+        Menu menu = new Menu(); // opens the main menu
+    }
+
+
+
 
 MÄRKMED
 
