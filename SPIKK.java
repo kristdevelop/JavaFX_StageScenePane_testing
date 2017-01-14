@@ -7,21 +7,15 @@ CLASS > MAIN > METHOD having args (argumendid kogum väärtusi)
 ALGUS
 //Created by kylli on 10/13/16. LÜHIDALT:
  public class Standard {					
- 	public static void main(String[] args)    { ... }     } 
+ public static void main(String[] args)    { ... }     } 
 /*
  * Created by kylli on 10/13/16. PIKEMALT SAMA:
  */
- public class Standard {					 //kutsume välja klassi meetodiga String tekst
-	public static void main(String[] args) { 
+public class Standard {					 //kutsume välja klassi meetodiga String tekst
+public static void main(String[] args) { 
 		System.out.println("Hey You there!"); } 	//looksulud vahel: miski oskus-tegevus
 } 
 
-public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
-        return (int) (Math.random() * 6 + 1);		//tagastamisel genereerib arvutuse
-}
-public void start(Stage primaryStage) throws Exception {
-        Menu menu = new Menu(); 			// open it
-}
 public class MingiAsi{					
 public static void peamine(String args[]) {		//meetod nimega peamine
 for(int nr=0; nr<10; nr++){				//tsükkel
@@ -59,9 +53,23 @@ public class MinuKlass extends Application {
         primaryStage.show();}
 }
 	    
-	    
 
-OBJEKT LOOMINE AVAMINE DEFINEERIMINE
+		   
+VEELKORD, MEETODITE READ nagu näiteks
+1) public Main() { try....// hakkab tegevus
+2) public void start(Stage primaryStage) throws Exception { //Stage loob aknakasti väljaku
+        seadistanMiskiAsja();				//mention it, loomine
+3) public static void main(String[] args)    { ... } 
+4) public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
+        return (int) (Math.random() * 6 + 1);}		//tagastamisel genereerib arvutuse
+5) public void start(Stage primaryStage) throws Exception {
+        Menu menu = new Menu();} 			// create it
+
+	
+	
+	
+		   
+OBJEKT LOOMINE AVAMINE = DEFINEERIMINE
 Menu menu = new Menu(); 			// open it
 // LOO UUS
 	   Stage stage = new Stage();		//Stage on programmiaken
