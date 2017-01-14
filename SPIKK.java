@@ -1,22 +1,18 @@
-public void start(Stage primaryStage) throws Exception {
-        Menu menu = new Menu(); // opens the main menu
-    }
-
-
-
-
 MÄRKMED
-
 CLASS > MAIN > METHOD having args (argumendid kogum väärtusi)
 // private tähendab, et see meetod on kättesaadav ainult siit failist.
 // static tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma.
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 
-public class KirjedMain {									//kutsume välja klassi meetodiga
+ALGUS
+public class KirjedMain {				//kutsume välja klassi meetodiga
 	public static void main(String[] args) { ..... }
 }
-public static int suvaT2ring() {							//?? public static int meetod arvu-genereerimiseks?
+public static int suvaT2ring() {			//?? public static int meetod arvu-genereerimiseks?
         return (int) (Math.random() * 6 + 1);
+    }
+public void start(Stage primaryStage) throws Exception {
+        Menu menu = new Menu(); // opens the main menu
     }
 
 
@@ -24,21 +20,21 @@ public static int suvaT2ring() {							//?? public static int meetod arvu-genere
 // ARGS LIST: 
 int	float double long		Math.abs() 
 		String nimetus = "miskikirjutis";
-		String taring[][] = {								//näitest: vurflite_liitmine
+		String taring[][] = {			//näitest: vurflite_liitmine
 		int nimetus = 150;	
-		int [] nimetus = {1, 222, 3, 77};  					//massiiv, NB arrays-klass importida 
+		int [] nimetus = {1, 222, 3, 77};  	//massiiv, NB arrays-klass importida 
 		int[][] lauaAlgseis = new int[9][9];
 		int m2ngijat2ring2 = 1 + (int) (Math.random() * 6);
 		lauaAlgseis[i][j] = (int) (Math.random() * 1.05); 	//???mis int peab siin olema (sulgudes int)
-		sisend = TextIO.getlnDouble();						//???mis see teeb
+		sisend = TextIO.getlnDouble();		//???mis see teeb
 	
 // suhtlemine
 	System.out.println("Sisesta: ");
 	System.out.printf("Nimi on: %s, tema vanus: %d ja palgaks saab %f%n", saadudNimi, saadudVanus, saadudPalk);  //%n kirjutab selle uuele reale
-	Scanner	klaviatuurilt = new Scanner(System.in);			//scanner enne import
-	//klaviatuur.next();									//tahetakse miskit sõne vastuseks, aga see ei salvetsu
-	String nimi = klaviatuurilt.next();						//nüüd aga salvestub, salvestab küsitu sisuliselt muutuja defineerimise kaudu. 
-	int arvnimi = klaviatuurilt.nextInt();					//Tegu enne oli sõne muutujaga, nüüd arvudega
+	Scanner	klaviatuurilt = new Scanner(System.in);	//scanner enne import
+	//klaviatuur.next();				//tahetakse miskit sõne vastuseks, aga see ei salvetsu
+	String nimi = klaviatuurilt.next();		//nüüd aga salvestub, salvestab küsitu sisuliselt muutuja defineerimise kaudu. 
+	int arvnimi = klaviatuurilt.nextInt();		//Tegu enne oli sõne muutujaga, nüüd arvudega
 
 //tsükkel, tingimused:
 	if (antudArv > 90) { siis vasta sout println(); }
@@ -46,7 +42,7 @@ int	float double long		Math.abs()
 	else { sout }
 //equals
 	if (sõne.equals("Tartu")) { .... }
-	if (a == b) { sout } 									//== nii ei soovita ei sõne ega arrays puhul
+	if (a == b) { sout } 				//== nii ei soovita ei sõne ega arrays puhul
 
 	if (Arrays.equals() )
 
@@ -60,7 +56,7 @@ for (int i = 0; i < 9; i++) {
  j++	//lisab ühevõrra
 
 //while tsükkel
- 	while() { sout } 										//niikaua kui tingimus täidetud. Töötab nii kaua kuni näeb break; käsku.
+ 	while() { sout } 			//niikaua kui tingimus täidetud. Töötab nii kaua kuni näeb break; käsku.
  	// Mängi enda tsükkel. 
 	while (true) {
 
