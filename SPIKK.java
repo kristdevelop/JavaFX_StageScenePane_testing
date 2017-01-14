@@ -8,16 +8,24 @@ ALGUS
 public class KirjedMain {				//kutsume välja klassi meetodiga
 	public static void main(String[] args) { ..... }
 }
-public static int suvaT2ring() {			//?? public static int meetod arvu-genereerimiseks?
-        return (int) (Math.random() * 6 + 1);
-    }
+public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
+        return (int) (Math.random() * 6 + 1);		//tagastamisel genereerib arvutuse
+}
 public void start(Stage primaryStage) throws Exception {
-        Menu menu = new Menu(); // opens the main menu
-    }
+        Menu menu = new Menu(); 			// open it
+}
+class MingiAsi{			
+public static void peamine(String args[]) {		//meetod: peamine, muutujatega
+for(int nr=0; nr<10; nr++){				//tsükkel
+System.out.println(nr);}}}
+
+
+LOOMINE AVAMINE DEFINEERIMINE
+Menu menu = new Menu(); 			// open it
 
 
 
-// ARGS LIST: 
+ARGS LIST: 
 int	float double long		Math.abs() 
 		String nimetus = "miskikirjutis";
 		String taring[][] = {			//näitest: vurflite_liitmine
