@@ -22,10 +22,21 @@ public static int suvaT2ring() {			//?mis? public static int meetod arvu-generee
 public void start(Stage primaryStage) throws Exception {
         Menu menu = new Menu(); 			// open it
 }
-class MingiAsi{			
+public class MingiAsi{			
 public static void peamine(String args[]) {		//meetod: peamine, muutujatega
 for(int nr=0; nr<10; nr++){				//tsükkel
-System.out.println(nr);}}}
+System.out.println(nr);}}
+}
+
+public class Rahakott extends Application		// harjutamine väike kalk, tulemuse tagastus
+public class Rahakott {
+    public static void main(String[] args) {
+        int rahahunnik = 10;
+        int toit = 2;
+        rahahunnik = rahahunnik - toit;
+        String rahahunnikALLES = rahahunnik + " eurot";
+        System.out.println(rahahunnikALLES); }
+}
 
 
 LOOMINE AVAMINE DEFINEERIMINE
