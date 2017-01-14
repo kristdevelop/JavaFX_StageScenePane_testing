@@ -5,9 +5,17 @@ CLASS > MAIN > METHOD having args (argumendid kogum väärtusi)
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
 
 ALGUS
-public class KirjedMain {				//kutsume välja klassi meetodiga
-	public static void main(String[] args) { ..... }
-}
+//Created by kylli on 10/13/16. LÜHIDALT:
+ public class Standard {					
+ 	public static void main(String[] args)    { ... }     } 
+/*
+ * Created by kylli on 10/13/16. PIKEMALT SAMA:
+ */
+ public class Standard {					 //kutsume välja klassi meetodiga String tekst
+	public static void main(String[] args) { 
+		System.out.println("Hey You there!"); } 	//looksulud vahel: miski oskus-tegevus
+} 
+
 public static int suvaT2ring() {			//?mis? public static int meetod arvu-genereerimiseks?
         return (int) (Math.random() * 6 + 1);		//tagastamisel genereerib arvutuse
 }
