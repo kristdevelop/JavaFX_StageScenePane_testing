@@ -22,12 +22,13 @@ public static int suvaT2ring() {			//?mis? public static int meetod arvu-generee
 public void start(Stage primaryStage) throws Exception {
         Menu menu = new Menu(); 			// open it
 }
-public class MingiAsi{			
-public static void peamine(String args[]) {		//meetod: peamine, muutujatega
+public class MingiAsi{					
+public static void peamine(String args[]) {		//meetod nimega peamine
 for(int nr=0; nr<10; nr++){				//tsükkel
 System.out.println(nr);}}
 }
 
+//selline algus ka Trump-pomm:
 public class Rahakott extends Application		// harjutamine väike kalk, tulemuse tagastus
 public class Rahakott {
     public static void main(String[] args) {
@@ -38,10 +39,35 @@ public class Rahakott {
         System.out.println(rahahunnikALLES); }
 }
 
+//selline algus ka Trump-pomm: 
+public class Main extends Application {
+    GridPane laud;                              //defineerib laua olemasolu pluss selle suuruse
+    int lauaPikkusLaevades = 9;
+    int lauaLaiuslaevades = 9;
+    int laevaPikkusPx = 50;
+    Stage mainGameSquare;			//määrab piraadilaeva; Stage on programmiaken
+    Image avapilt = new Image("piraadilaev.png"); //Loo pilt
+    ImagePattern laevaMuster = new ImagePattern(avapilt);
+    Lauahaldus HaldurMina; //viide teisele klassile //defineerib muutuja väärtuseta, vaata edasi rida 115 seadistamine....
+    public Main() { try....// hakkab tegevus
+	    
+//i200: Stage on programmi aken, see jupp tekitab AKNA:
+public class MinuKlass extends Application {
+    @Override
+    public void start(Stage primaryStage) {
+        primaryStage.setTitle("MinuÄpp");
+        primaryStage.show();}
+}
+	    
+	    
 
-LOOMINE AVAMINE DEFINEERIMINE
+OBJEKT LOOMINE AVAMINE DEFINEERIMINE
 Menu menu = new Menu(); 			// open it
-
+// LOO UUS
+	   Stage stage = new Stage();		//Stage on programmiaken
+		   
+		   
+	    
 
 
 ARGS LIST: 
