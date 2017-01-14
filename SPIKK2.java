@@ -1,3 +1,7 @@
+Stage - aken
+
+
+
 MUU
 //import java.awt.*; viska välja see, see on vaba algne grafaikapakett ja läheb uutega tylli!!!
 
