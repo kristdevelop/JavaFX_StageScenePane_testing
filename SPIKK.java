@@ -55,7 +55,10 @@ public class MinuKlass extends Application {
 	    
 
 		   
-VEELKORD, MEETODITE READ nagu näiteks
+VEELKORD, 
+HaldurMina.loonLaevad(); // tühjad sulud, et läheb käima!!! Lauahaldus HaldurMina; on enne defineeritud. Lauahaldus on klass.		   
+		  
+	MEETODITE READ nagu näiteks
 1) public Main() { try....// hakkab tegevus
 2) public void start(Stage primaryStage) throws Exception { //Stage loob aknakasti väljaku
         seadistanMiskiAsja();				//mention it, loomine
