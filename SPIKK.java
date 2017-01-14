@@ -1,5 +1,7 @@
 MÄRKMED
-CLASS > MAIN > METHOD having args (argumendid kogum väärtusi)
+CLASS{}
+MAIN() { ... } 
+{ ... } it includes METHOD having args (argumendid kogum väärtusi)
 // private tähendab, et see meetod on kättesaadav ainult siit failist.
 // static tähendab, et meetodi välja kutsumiseks ei pea eraldi Objekti looma.
 // boolean tähendab, et meetod peab lõpuks return'ima booleani tulemuseks
