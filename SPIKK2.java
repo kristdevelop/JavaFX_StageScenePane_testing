@@ -17,6 +17,13 @@ true != false;
 true == true && false == false;  //mõlemad tingimused peavad olema tõesed
 true == false || false == false; // üks tingimustest peab olema tõene
 
+Objekt (ehk klassid) vt teist faili:
+1.1. public class MinuProgramm {public static void main(String[] args) {
+        Hobune uusMuutuja = new Hobune();    // defineerin uue hobuse objekti, Hobune on teise alamklassi nimi
+        System.out.println(uusMuutuja.kaal); // küsin välja hobuse kaalu teisest klassist
+    }}
+1.2.public class Hobune {int kaal = 100000000;}
+
 
 
 
