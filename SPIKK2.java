@@ -1,3 +1,29 @@
+Muutujad
+int a = 5;     double a = 8.76;         //Loo uus
+(int) Math.pow(a, b);                   // a astmes b
+a / b;                                  //jagamine
+a == b;    a != b;    a <= b;            //võrdlemine
+if (!laevadTabamata()) {    //gameover, kui pole laevu, hüüumärk muudab väite vastupidiseks
+int c = (int) 6;    //muuda tüüpi? int c = Integer.parseInt(a);
+char a = 'k';       //üksik täht
+a.contains("õue");  //sisaldab
+a.equals(Loom)      //võrdlemine
+a.replace("õue", "arvutisse"); // "Lähme arvutisse mängima." esimene sõna asendatakse teise sõnaga
+a.isEmpty();            //kas on tühi
+
+Õpetus_boolean
+true == true;
+true != false;
+true == true && false == false;  //mõlemad tingimused peavad olema tõesed
+true == false || false == false; // üks tingimustest peab olema tõene
+
+public class Program {public static void main(String[] args) { boolean value = true; // seadistame, et õige
+        if (value) {System.out.println("prindin konsooli õige");}
+        value = false;
+       if (!value) {System.out.println("prindin konsooli vale");}
+    }}
+
+
 Stage - aken
 
 
@@ -15,18 +41,14 @@ public class Main extends Application{
         primaryStage.setScene(scene);
         Circle ring = new Circle(30);
         stack.getChildren().add(ring);
-        primaryStage.show();}
-}
+        primaryStage.show();}               }
 
 
 
 MUU
 //import java.awt.*; viska välja see, see on vaba algne grafaikapakett ja läheb uutega tylli!!!
-
- if (!laevadTabamata()) {
-                //gameover kui pole alles, hüüumärk muudab väite vastupidiseks
-                
- //seadistamsest         
+               
+//seadistamsest         
         manguvaljak = new GridPane();
         HaldurMina = new Lauahaldus(manguvaljak, lauaPikkusLaevades, lauaLaiuslaevades, laevaPikkusPx);    //see annabki lauale halduse õigused. Tekkis aga ei tee midagi
         Scene scene = new Scene(manguvaljak, lauaPikkusLaevades * laevaPikkusPx, lauaLaiuslaevades * laevaPikkusPx);
