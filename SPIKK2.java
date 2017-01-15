@@ -17,11 +17,7 @@ true != false;
 true == true && false == false;  //mõlemad tingimused peavad olema tõesed
 true == false || false == false; // üks tingimustest peab olema tõene
 
-public class Program {public static void main(String[] args) { boolean value = true; // seadistame, et õige
-        if (value) {System.out.println("prindin konsooli õige");}
-        value = false;
-       if (!value) {System.out.println("prindin konsooli vale");}
-    }}
+
 
 
 Stage - aken
