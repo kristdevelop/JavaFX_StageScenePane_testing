@@ -54,6 +54,10 @@ g.getSelectedToggle(); //Küsi ToggleGroup käest, millised nupud on sisse vajut
 18. SLIDER joonlaud
 19. Chart 
 20. FileChooser Kasutab kasutaja operatsioonisüsteemi failihaldurit, et leida kasutaja soovitud fail.
+    
+    
+  JOONISTAMINE ......palju kujundeid
+  Polygon näiteks ongi vabalt vormitav kujund
 
 
 
