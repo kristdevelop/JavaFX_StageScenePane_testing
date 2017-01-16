@@ -1,3 +1,5 @@
+i200 KV
+
 Muutujad
 int a = 5;     double a = 8.76;         //Loo uus
 (int) Math.pow(a, b);                   // a astmes b
@@ -9,7 +11,9 @@ char a = 'k';       //üksik täht
 
 h.add((int) ...);
 h.clear();                         // tühjenda eelnevad katsed
-mmmm.put(muutujanimiTulemused);        // salvesta tulemus
+
+mmmm.put(muutujanimiTulemused);       a.put("Peeter", 35); // SALVESTA tulemus. Vaata veel: kogum väärtus
+
 int uusmuutuja = (int) ((ArrayList) tulemused.get("Kaido")).get(7);  //get annab seitsmenda väärtuse
 .show
 muutujaNimi = muutujaNimi.replace('r', 'l');    //asendab esimese
