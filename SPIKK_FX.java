@@ -5,6 +5,10 @@ all JavaFX packages: http://docs.oracle.com/javafx/2/api/index.html
 ABOUT JAVA FX, ALL: http://docs.oracle.com/javase/8/javase-clienttechnologies.htm (inc. Handling Events)
 ((community: https://community.oracle.com/message/11051092#11051092))
 www.javafxtutorials.com/tutorials/switching-to-different-screens-in-javafx-and-fxml/
+  
+  Design UI: 
+  https://docs.oracle.com/javafx/2/ui_controls/button.htm#CJHEEACB
+  http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDCJDBD
 
 
 
