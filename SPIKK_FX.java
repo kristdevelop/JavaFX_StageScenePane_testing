@@ -50,6 +50,8 @@ btn.setOnAction((event) -> {
 ToggleGroup 
 g.getSelectedToggle(); //Küsi ToggleGroup käest, millised nupud on sisse vajutatud
 16. CheckBox
+17. ChoiceBox - annab rippmenüü
+18. SLIDER joonlaud
 
 
 
