@@ -54,14 +54,15 @@ public class MinuKlass extends Application {
         primaryStage.setTitle("MinuÄpp");
         primaryStage.show();}
 }
-	    
 
-		   
-VEELKORD, 
-HaldurMina.loonLaevad(); // tühjad sulud, et läheb käima!!! Lauahaldus HaldurMina; on enne defineeritud. Lauahaldus on klass.		   
+***
+NB! mitte main() meetodiga, vaid start() - start on siis kui kasutame Java FX Applicationit	    
+
+*** 
+HaldurMina.loonLaevad(); // tühjad sulud, et läheks käima!!! Lauahaldus HaldurMina; on enne defineeritud. Lauahaldus on klass.		   
 		  
 	MEETODITE READ nagu näiteks
-1) public Main() { try....// hakkab tegevus
+1) public main() { try....// hakkab tegevus
 2) public void start(Stage primaryStage) throws Exception { //Stage loob aknakasti väljaku
         seadistanMiskiAsja();				//mention it, loomine
 3) public static void main(String[] args)    { ... } 
