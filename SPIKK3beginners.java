@@ -30,5 +30,46 @@ public class Program {public static void main(String[] args) { boolean value = t
         value = false;
        if (!value) {System.out.println("prindin konsooli vale");}
     }}
+    
+    
+  JAVA FX
+ import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Paint;
+import javafx.scene.shape.Circle;
+import javafx.stage.Stage;
+
+public class MinuLoodudKlass extends Application{
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        primaryStage.setTitle("MinuÄpp");                                 //käsk seotud STAGEga
+        primaryStage.show();
+
+        StackPane kujund = new StackPane();         //see on parem kui Pane
+        Scene stseen = new Scene(kujund, 700, 700);
+        primaryStage.setScene(stseen);
+        kujund.setRotate(30);                           // Pööra 30 kraadi??
+        //kujund.setAlignment(Pos.BOTTOM_CENTER);             //pall asub all
+        stseen.setFill(Paint.valueOf("#ff9900"));                //taustavärv
+
+        Circle joonistanRingi = new Circle(30);
+        Circle joonistanRingi2 = new Circle(60);
+        joonistanRingi2.setTranslateX(70);              //liigutab kujundit
+
+        Label l = new Label();
+        l.setText("Keegi on su selja taga!");
+        l.setTranslateX(150);
+        l.setTranslateY(200);
+        l.setScaleX(0.5);
+        l.setScaleY(2);
+        l.setRotate(10);
+
+        kujund.getChildren().addAll(l, joonistanRingi, joonistanRingi2);  //mitu elementi
+
+    }}
 
 
