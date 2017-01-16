@@ -1,3 +1,7 @@
+ORACLE REVIEW JAVAFX http://docs.oracle.com/javafx/2/get_started/form.htm
+login welcome: http://docs.oracle.com/javafx/2/get_started/Login.java.html
+layouts: http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDGHCDG
+
 Stage on esimene aken
 Scene on tegevusstseen
 Layout ehk StackPane? //kuidas asjad paigutavad, Stseeni ilma layoutita teha ei saa, seep StackPane Scene() sulgude vahel
