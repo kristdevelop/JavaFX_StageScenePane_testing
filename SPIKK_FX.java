@@ -44,8 +44,12 @@ btn.setOnAction((event) -> {
         // Siia tegevus, kui nupp on vajutatud.
     }
 });
-14. ToggleButton = "check" versie  - saab teha mitu/üks valik, nupp "jääb sisse"
+
+14. ToggleButton = "check" versie  - saab teha mitu/üks valik, ERILINE nupp "jääb sisse"
 15. RadioButton = "radio" versie
+ToggleGroup 
+g.getSelectedToggle(); //Küsi ToggleGroup käest, millised nupud on sisse vajutatud
+16. CheckBox
 
 
 
