@@ -1,20 +1,17 @@
-ORACLE REVIEW JAVAFX http://docs.oracle.com/javafx/2/get_started/form.htm
-login welcome: http://docs.oracle.com/javafx/2/get_started/Login.java.html
-layouts: http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDGHCDG
-all JavaFX packages: http://docs.oracle.com/javafx/2/api/index.html
-ABOUT JAVA FX, ALL: http://docs.oracle.com/javase/8/javase-clienttechnologies.htm (inc. Handling Events)
-((community: https://community.oracle.com/message/11051092#11051092))
-www.javafxtutorials.com/tutorials/switching-to-different-screens-in-javafx-and-fxml/
-  
-  Design UI: 
+ORACLE GetStarted JAVAFX: http://docs.oracle.com/javafx/2/get_started/form.htm
+Welcome-Login: http://docs.oracle.com/javafx/2/get_started/Login.java.html
+Layouts: http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDGHCDG
+Packages: http://docs.oracle.com/javafx/2/api/index.html
+ABOUT ALL: http://docs.oracle.com/javase/8/javase-clienttechnologies.htm (inc. Handling Events)
+((Community: https://community.oracle.com/message/11051092#11051092))
+CODE-SWITCH: www.javafxtutorials.com/tutorials/switching-to-different-screens-in-javafx-and-fxml/
+Design UI: 
   https://docs.oracle.com/javafx/2/ui_controls/button.htm#CJHEEACB = Defining an Action for a Button, etc
   http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDCJDBD
 
-
-
 Stage on esimene aken
 Scene on tegevusstseen
-Layout ehk StackPane? //kuidas asjad paigutavad, Stseeni ilma layoutita teha ei saa, seep StackPane Scene() sulgude vahel
+Layout //kuidas asjad paigutavad, Stseeni ilma layoutita teha ei saa, seep StackPane Scene() sulgude vahel
 Node ehk esemed
 
 //kood, TULEMUSEKS AKEN RINGIGA
