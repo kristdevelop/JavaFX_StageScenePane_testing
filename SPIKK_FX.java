@@ -44,7 +44,8 @@ btn.setOnAction((event) -> {
         // Siia tegevus, kui nupp on vajutatud.
     }
 });
-14. ToggleButton = "radio" versie
+14. ToggleButton = "check" versie  - saab teha mitu/üks valik, nupp "jääb sisse"
+15. RadioButton = "radio" versie
 
 
 
