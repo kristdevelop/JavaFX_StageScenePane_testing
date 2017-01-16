@@ -1,6 +1,9 @@
 ORACLE REVIEW JAVAFX http://docs.oracle.com/javafx/2/get_started/form.htm
 login welcome: http://docs.oracle.com/javafx/2/get_started/Login.java.html
 layouts: http://docs.oracle.com/javafx/2/layout/builtin_layouts.htm#CHDGHCDG
+all JavaFX packages: http://docs.oracle.com/javafx/2/api/index.html
+ABOUT JAVA FX, ALL: http://docs.oracle.com/javase/8/javase-clienttechnologies.htm (inc. Handling Events)
+
 
 Stage on esimene aken
 Scene on tegevusstseen
