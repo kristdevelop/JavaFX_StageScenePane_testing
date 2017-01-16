@@ -35,7 +35,16 @@ public class MinuLoodudKlass extends Application{                          //lai
 9. AnchorPane = elemendid saab asetada nurkadesse
 
 Kasutajaliides
-10. Label ehk silt on lihtne tekst
+10. Label = silt on lihtne tekst
+11. TextField = kasutajalt info küsimine
+12. PasswordField = näidatakse tärne
+13. BUTTON
+btn.setOnAction((event) -> {
+    public void handle(ActionEvent e) {
+        // Siia tegevus, kui nupp on vajutatud.
+    }
+});
+14. ToggleButton = "radio" versie
 
 
 
