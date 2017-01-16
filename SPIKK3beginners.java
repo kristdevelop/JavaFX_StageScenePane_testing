@@ -2,6 +2,9 @@ GIT https://wiki.itcollege.ee/index.php/I253_Informatika_eelkursus#Neljas_teema:
 CODES https://github.com/caveofprogramming/java-beginners.git
 REVIEW JAVAFX http://docs.oracle.com/javafx/2/get_started/form.htm
 
+KOODINÄITED ja igasugust
+
+
 KLASSID
 1.1. public class Main extends Application {
     GridPane manguvaljak;                              //defineerib laua olemasolu pluss selle suuruse
