@@ -1,15 +1,15 @@
 Stage - aken
 
 
-//TULEMUSEKS AKEN RINGIGA
+//kood, TULEMUSEKS AKEN RINGIGA
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
-public class Main extends Application{
-    @Override
-    public void start(Stage primaryStage) throws Exception {
+public class Main extends Application{                          //laiendamine
+    @Override       //mitte main() meetodiga, vaid start() 
+    public void start(Stage primaryStage) throws Exception {    
         StackPane stack = new StackPane();
         Scene scene = new Scene(stack, 150, 150);
         primaryStage.setScene(scene);
