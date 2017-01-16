@@ -160,3 +160,7 @@ MUU
         scene.setFill(Color.DEEPSKYBLUE);
         mainGameSquare.setScene(scene);
         mainGameSquare.show();
+		
+		
+TEXT in BOLD
+	title.setFont(Font.font("Arial", FontWeight.BOLD, 14));   //title on defineeritud
