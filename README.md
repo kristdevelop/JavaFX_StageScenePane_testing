@@ -1,5 +1,5 @@
 # pomm
 
-kristeri kood
+siin on kristeri koodist stage - laevade pommitamine
 
-arendus laevadepommitamine
+
